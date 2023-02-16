@@ -1,0 +1,18 @@
+#2.1
+#Игнорируем все что внутри папки build
+build/**
+#Игнорируем все файлы .jar
+**.jar
+#Исключаем игнорирование файла module2.jar
+!/module2.jar
+#Игнорируем файла application-local.properties
+application-local.properties
+#Игнорируем папку .idea
+**/.idea
+#Игнорируем папку .idea_copy
+**/.idea_copy
+#Исключаем игнорирование файла workspace.xml
+!workspace.xml
+
+#2.2
+build.*/
